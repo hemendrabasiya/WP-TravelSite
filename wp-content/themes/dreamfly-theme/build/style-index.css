@@ -1,28 +1,107 @@
 body{
-    background-color: aquamarine;
+    background-color: teal;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     position: relative;
+    font-family: 'Cabin', sans-serif;
 }
 
 .container{
     max-width: 100%;
 }
 
+
+/* Navbar styling starts here */
+
 .header{
-    width: 80%;
+    width: 60%;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 50px;
+    top: 20px;
 }
 
 .header .navbar-top{
     background: transparent;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-bottom: 20px;
+}
+.navbar-top a{
+    text-decoration: none;
+    color: white;
+}
+.navbar-icons i{
+    padding: 0 15px;
 }
 
 
 .header .navbar-bottom{
-    background: wheat;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px;
+    border-radius: 4px;
+}
+
+.logo{
+    cursor: pointer;
+    line-height: 0;
+}
+
+.header .navbar-bottom .logo img{
+    width: 45px;
+}
+
+.logo li{
+    list-style: none;
+    display: inline-block;
+    transform: translateY(-15px);
+    font-size: 26px;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 3px;
+    color: #141414;
+
+}
+
+.logo li span{
+    color: #0c23d7;
+}
+
+
+.nav-links ul{
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+
+.nav-links li{
+    list-style: none;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #454545;
+}
+
+/* Navbar styling ends here */
+
+.main-bg{
+    height: 100vh;
+    background: #00000065;
+}
+
+
+
+.main-bg video{
+  max-width: 100%;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
