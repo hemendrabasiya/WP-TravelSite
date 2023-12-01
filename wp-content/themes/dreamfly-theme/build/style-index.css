@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 html {
   margin: 0 !important;
 }
@@ -6,6 +13,7 @@ body {
   background-color: teal;
   padding: 0;
   margin: 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   position: relative;
   font-family: "Cabin", sans-serif;
@@ -31,13 +39,20 @@ body {
   width: 60%;
   position: absolute;
   left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   top: 50px;
+  z-index: 1;
 }
 
 .header .navbar-top {
   background: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   color: white;
   padding-bottom: 20px;
@@ -52,7 +67,11 @@ body {
 
 .header .navbar-bottom {
   background: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   border-radius: 4px;
 }
@@ -70,6 +89,8 @@ body {
 .logo li {
   list-style: none;
   display: inline-block;
+  -webkit-transform: translateY(-15px);
+  -ms-transform: translateY(-15px);
   transform: translateY(-15px);
   font-size: 26px;
   font-family: "Pacifico", cursive;
@@ -83,6 +104,8 @@ body {
 
 .nav-links ul {
   margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -107,10 +130,16 @@ body {
 .fa-brands:hover::before {
   color: #0c23d7;
   cursor: pointer;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 
 /* Navbar styling ends here */
+
+.main-section {
+  position: relative;
+}
 
 .main-bg {
   height: 90vh;
@@ -119,10 +148,11 @@ body {
 
 .main-bg video {
   max-width: 100%;
+  -o-object-fit: cover;
   object-fit: cover;
   width: 100vw;
   height: 90vh;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
@@ -132,6 +162,8 @@ body {
   position: absolute;
   top: 60%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
@@ -155,10 +187,75 @@ body {
   letter-spacing: 1px;
   border: none;
   outline: none;
-  transition: all 0.3s;
+  -webkit-transition: color 0.3s, background 0.3s;
+  -o-transition: color 0.3s, background 0.3s;
+  transition: color 0.3s, background 0.3s;
 }
 
 .content-section button:hover {
   cursor: pointer;
-  transform: translateY(-3px);
+  background: #0000007d;
+  border: 2px solid white;
+  color: white;
+}
+
+.special-offers {
+  width: 60%;
+  margin: 50px auto;
+}
+
+.special-offers h1 {
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  position: relative;
+}
+
+.special-offers h1::after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 100px;
+  background-color: dodgerblue;
+  left: 50px;
+  bottom: -50%;
+}
+
+.special-offers .offers-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.special-offers .offer-box {
+  width: min-content;
+}
+
+.special-offers .image-wrapper {
+  overflow: hidden;
+}
+
+.special-offers .offer-box:hover {
+  cursor: pointer;
+}
+
+.special-offers .offer-box:hover img {
+  transform: scale(1.1);
+}
+
+.special-offers .offer-box img {
+  width: 350px;
+  transition: all 0.5s;
+}
+
+.special-offers .offer-box p {
+  display: inline-block;
+}
+
+.special-offers .price-container {
+  display: inline-block;
+  float: right;
+  background-color: #00000025;
+  padding: 0 15px;
+  border-radius: 6px;
 }

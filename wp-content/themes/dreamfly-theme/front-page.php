@@ -15,6 +15,41 @@
             </video>
         </div>
     </section>
+    <section class="special-offers">
+        <h1>Special Offers</h1>
+        <div class="offers-container">
+            <div class="offer-box">
+                <div class="image-wrapper"> <img src="./wp-content/themes/dreamfly-theme/images/place_1.jpg" alt="">
+                </div>
+                <h3>Known monument in the black hills of south</h3>
+                <i class="fa-solid fa-location-dot"></i>
+                <p>Lake Grove, New York</p>
+                <div class="price-container">
+                    <p class="price">$120</p>
+                </div>
+            </div>
+            <div class="offer-box">
+                <div class="image-wrapper"> <img src="./wp-content/themes/dreamfly-theme/images/place_2.jpg" alt="">
+                </div>
+                <h3>Known monument in the black hills of south</h3>
+                <i class="fa-solid fa-location-dot"></i>
+                <p>Lake Grove, New York</p>
+                <div class="price-container">
+                    <p class="price">$120</p>
+                </div>
+            </div>
+            <div class="offer-box">
+                <div class="image-wrapper"> <img src="./wp-content/themes/dreamfly-theme/images/place_3.jpg" alt="">
+                </div>
+                <h3>Known monument in the black hills of south</h3>
+                <i class="fa-solid fa-location-dot"></i>
+                <p>Lake Grove, New York</p>
+                <div class="price-container">
+                    <p class="price">$120</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
