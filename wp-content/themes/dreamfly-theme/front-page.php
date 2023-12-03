@@ -15,9 +15,9 @@
             </video>
         </div>
     </section>
-    <section class="special-offers">
-        <h1>Special Offers</h1>
-        <div class="offers-container">
+    <section class="special-packages">
+        <h1 class="heading">Special Packages</h1>
+        <div class="packages-container">
 
 
 
@@ -25,28 +25,35 @@
 
             $offerEvents = new WP_QUERY(
                 array(
-                    "post_type" => "offer"
+                    "post_type" => "package"
                 )
             );
 
 
-
             while ($offerEvents->have_posts()) {
-                $offerEvents->the_post(); ?>
-                <div class="offer-box">
-                    <div class="image-wrapper"> <img src="<?php the_post_thumbnail_url('offerLandscape') ?>" alt="">
+                $offerEvents->the_post();
+                ?>
+                <div class="package-box">
+                    <div class="image-wrapper">
+                        <h1>
+                            <?php echo wp_trim_words(get_the_title(), 4); ?>
+                        </h1>
+                        <img src="<?php the_post_thumbnail_url('packageLandscape') ?>" alt="">
 
                     </div>
                     <h3>
-                        <?php the_title(); ?>
+                        <?php if (get_the_content()) {
+                            echo wp_strip_all_tags(get_the_content());
+                        } else
+                            the_title(); ?>
                     </h3>
                     <i class="fa-solid fa-location-dot"></i>
                     <p style="font-size: 14px">
-                        <?php echo get_field('offer_location'); ?>
+                        <?php echo get_field('package_location'); ?>
                     </p>
                     <div class="price-container">
                         <p class="price">
-                            <?php echo "$" . get_field('offer_price'); ?>
+                            <?php echo "$" . get_field('package_price'); ?>
                         </p>
                     </div>
                 </div>

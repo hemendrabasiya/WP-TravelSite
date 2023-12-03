@@ -7,20 +7,20 @@ function dreamfly_post_types()
 {
 
     register_post_type(
-        'offer',
+        'package',
         array(
             'map_meta_cap' => true,
             'show_in_rest' => true,
             'supports' => array('title', 'editor', 'thumbnail'),
-            'rewrite' => array('slug' => 'offers'),
+            'rewrite' => array('slug' => 'packages'),
             'has_archive' => true,
             'public' => true,
             'labels' => array(
-                'name' => 'Offers',
-                'add_new_item' => 'Add New Offer',
-                'edit_item' => 'Edit Offer',
-                'all_items' => 'All Offers',
-                'singular_name' => 'Offer'
+                'name' => 'Packages',
+                'add_new_item' => 'Add New Package',
+                'edit_item' => 'Edit Package',
+                'all_items' => 'All Packages',
+                'singular_name' => 'Package'
             ),
             'menu_icon' => 'dashicons-megaphone'
         )
