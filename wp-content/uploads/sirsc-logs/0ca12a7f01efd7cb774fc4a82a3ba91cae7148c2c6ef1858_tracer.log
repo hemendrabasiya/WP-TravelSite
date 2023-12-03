@@ -1,0 +1,206 @@
+<li><em>2023-12-03 09:53:02</em>
+DO ACTION <b>sirsc_action_after_image_delete</b> ( 65 )</li>
+<li><em>2023-12-03 09:53:02</em>
+DO ACTION <b>sirsc_attachment_images_ready</b> ( {"meta":"...","id":65} )</li>
+<li><em>2023-12-03 09:52:17</em>
+DO ACTION <b>sirsc_attachment_images_ready</b> ( {"meta":"...","id":65} )</li>
+<li><em>2023-12-03 09:52:17</em>
+APPLY FILTER <strong>sirsc_computed_metadata_after_upload</strong> ( {"meta":"...","id":65} )</li>
+<li><em>2023-12-03 09:49:50</em>
+DO ACTION <b>sirsc_attachment_images_ready</b> ( {"meta":"...","id":64} )</li>
+<li><em>2023-12-03 09:49:50</em>
+APPLY FILTER <strong>sirsc_computed_metadata_after_upload</strong> ( {"meta":"...","id":64} )</li>
+<li><em>2023-12-03 09:49:00</em>
+DO ACTION <b>sirsc_attachment_images_processed</b> ( {"meta":"...","id":63} )</li>
+<li><em>2023-12-03 09:49:00</em>
+DO ACTION <b>sirsc_image_processed</b> ( {"id":63,"size_name":"offerLandscape"} )</li>
+<li><em>2023-12-03 09:48:59</em>
+DO ACTION <b>sirsc_attachment_images_processed</b> ( {"meta":"...","id":62} )</li>
+<li><em>2023-12-03 09:48:59</em>
+DO ACTION <b>sirsc_image_processed</b> ( {"id":62,"size_name":"offerLandscape"} )</li>
+<li><em>2023-12-03 09:48:58</em>
+DO ACTION <b>sirsc_attachment_images_processed</b> ( {"meta":"...","id":61} )</li>
+<li><em>2023-12-03 09:48:58</em>
+DO ACTION <b>sirsc_image_processed</b> ( {"id":61,"size_name":"offerLandscape"} )</li>
+<li><em>2023-12-03 09:48:57</em>
+DO ACTION <b>sirsc_attachment_images_processed</b> ( {"meta":"...","id":60} )</li>
+<li><em>2023-12-03 09:48:57</em>
+DO ACTION <b>sirsc_image_processed</b> ( {"id":60,"size_name":"offerLandscape"} )</li>
+<li><em>2023-12-03 09:48:55</em>
+DO ACTION <b>sirsc_attachment_images_processed</b> ( {"meta":"...","id":59} )</li>
+<li><em>2023-12-03 09:48:55</em>
+DO ACTION <b>sirsc_image_processed</b> ( {"id":59,"size_name":"offerLandscape"} )</li>
+<li><em>2023-12-03 09:48:54</em>
+DO ACTION <b>sirsc_attachment_images_processed</b> ( {"meta":"...","id":58} )</li>
+<li><em>2023-12-03 09:48:54</em>
+DO ACTION <b>sirsc_image_processed</b> ( {"id":58,"size_name":"offerLandscape"} )</li>
+<li><em>2023-12-03 09:48:53</em>
+DO ACTION <b>sirsc_attachment_images_processed</b> ( {"meta":"...","id":57} )</li>
+<li><em>2023-12-03 09:48:53</em>
+DO ACTION <b>sirsc_image_processed</b> ( {"id":57,"size_name":"offerLandscape"} )</li>
+<li><em>2023-12-03 09:48:52</em>
+DO ACTION <b>sirsc_attachment_images_processed</b> ( {"meta":"...","id":56} )</li>
+<li><em>2023-12-03 09:48:52</em>
+DO ACTION <b>sirsc_image_processed</b> ( {"id":56,"size_name":"offerLandscape"} )</li>
+<li><em>2023-12-03 09:48:51</em>
+DO ACTION <b>sirsc_attachment_images_processed</b> ( {"meta":"...","id":55} )</li>
+<li><em>2023-12-03 09:48:51</em>
+DO ACTION <b>sirsc_image_processed</b> ( {"id":55,"size_name":"offerLandscape"} )</li>
+<li><em>2023-12-03 09:48:50</em>
+DO ACTION <b>sirsc_attachment_images_processed</b> ( {"meta":"...","id":54} )</li>
+<li><em>2023-12-03 09:48:50</em>
+DO ACTION <b>sirsc_image_processed</b> ( {"id":54,"size_name":"offerLandscape"} )</li>
+<li><em>2023-12-03 09:48:49</em>
+DO ACTION <b>sirsc_attachment_images_processed</b> ( {"meta":"...","id":53} )</li>
+<li><em>2023-12-03 09:48:49</em>
+DO ACTION <b>sirsc_image_processed</b> ( {"id":53,"size_name":"offerLandscape"} )</li>
+<li><em>2023-12-03 09:48:47</em>
+DO ACTION <b>sirsc_attachment_images_processed</b> ( {"meta":"...","id":52} )</li>
+<li><em>2023-12-03 09:48:47</em>
+DO ACTION <b>sirsc_image_processed</b> ( {"id":52,"size_name":"offerLandscape"} )</li>
+<li><em>2023-12-03 09:48:46</em>
+DO ACTION <b>sirsc_attachment_images_processed</b> ( {"meta":"...","id":51} )</li>
+<li><em>2023-12-03 09:48:46</em>
+DO ACTION <b>sirsc_image_processed</b> ( {"id":51,"size_name":"offerLandscape"} )</li>
+<li><em>2023-12-03 09:48:45</em>
+DO ACTION <b>sirsc_attachment_images_processed</b> ( {"meta":"...","id":50} )</li>
+<li><em>2023-12-03 09:48:45</em>
+DO ACTION <b>sirsc_image_processed</b> ( {"id":50,"size_name":"offerLandscape"} )</li>
+<li><em>2023-12-03 09:48:44</em>
+DO ACTION <b>sirsc_attachment_images_processed</b> ( {"meta":"...","id":49} )</li>
+<li><em>2023-12-03 09:48:44</em>
+DO ACTION <b>sirsc_image_processed</b> ( {"id":49,"size_name":"offerLandscape"} )</li>
+<li><em>2023-12-03 09:48:43</em>
+DO ACTION <b>sirsc_attachment_images_processed</b> ( {"meta":"...","id":48} )</li>
+<li><em>2023-12-03 09:48:43</em>
+DO ACTION <b>sirsc_image_processed</b> ( {"id":48,"size_name":"offerLandscape"} )</li>
+<li><em>2023-12-03 09:44:35</em>
+DO ACTION <b>sirsc_attachment_images_ready</b> ( {"meta":"...","id":63} )</li>
+<li><em>2023-12-03 09:44:35</em>
+APPLY FILTER <strong>sirsc_computed_metadata_after_upload</strong> ( {"meta":"...","id":63} )</li>
+<li><em>2023-12-03 09:44:35</em>
+DO ACTION <b>sirsc_attachment_images_ready</b> ( {"meta":"...","id":62} )</li>
+<li><em>2023-12-03 09:44:35</em>
+APPLY FILTER <strong>sirsc_computed_metadata_after_upload</strong> ( {"meta":"...","id":62} )</li>
+<li><em>2023-12-03 09:44:34</em>
+DO ACTION <b>sirsc_attachment_images_ready</b> ( {"meta":"...","id":61} )</li>
+<li><em>2023-12-03 09:44:34</em>
+APPLY FILTER <strong>sirsc_computed_metadata_after_upload</strong> ( {"meta":"...","id":61} )</li>
+<li><em>2023-12-03 09:44:34</em>
+DO ACTION <b>sirsc_attachment_images_ready</b> ( {"meta":"...","id":60} )</li>
+<li><em>2023-12-03 09:44:34</em>
+APPLY FILTER <strong>sirsc_computed_metadata_after_upload</strong> ( {"meta":"...","id":60} )</li>
+<li><em>2023-12-03 09:44:34</em>
+DO ACTION <b>sirsc_attachment_images_ready</b> ( {"meta":"...","id":59} )</li>
+<li><em>2023-12-03 09:44:34</em>
+APPLY FILTER <strong>sirsc_computed_metadata_after_upload</strong> ( {"meta":"...","id":59} )</li>
+<li><em>2023-12-03 09:44:33</em>
+DO ACTION <b>sirsc_attachment_images_ready</b> ( {"meta":"...","id":58} )</li>
+<li><em>2023-12-03 09:44:33</em>
+APPLY FILTER <strong>sirsc_computed_metadata_after_upload</strong> ( {"meta":"...","id":58} )</li>
+<li><em>2023-12-03 09:44:33</em>
+DO ACTION <b>sirsc_attachment_images_ready</b> ( {"meta":"...","id":57} )</li>
+<li><em>2023-12-03 09:44:33</em>
+APPLY FILTER <strong>sirsc_computed_metadata_after_upload</strong> ( {"meta":"...","id":57} )</li>
+<li><em>2023-12-03 09:44:33</em>
+DO ACTION <b>sirsc_attachment_images_ready</b> ( {"meta":"...","id":56} )</li>
+<li><em>2023-12-03 09:44:33</em>
+APPLY FILTER <strong>sirsc_computed_metadata_after_upload</strong> ( {"meta":"...","id":56} )</li>
+<li><em>2023-12-03 09:44:32</em>
+DO ACTION <b>sirsc_attachment_images_ready</b> ( {"meta":"...","id":55} )</li>
+<li><em>2023-12-03 09:44:32</em>
+APPLY FILTER <strong>sirsc_computed_metadata_after_upload</strong> ( {"meta":"...","id":55} )</li>
+<li><em>2023-12-03 09:44:32</em>
+DO ACTION <b>sirsc_attachment_images_ready</b> ( {"meta":"...","id":54} )</li>
+<li><em>2023-12-03 09:44:32</em>
+APPLY FILTER <strong>sirsc_computed_metadata_after_upload</strong> ( {"meta":"...","id":54} )</li>
+<li><em>2023-12-03 09:44:32</em>
+DO ACTION <b>sirsc_attachment_images_ready</b> ( {"meta":"...","id":53} )</li>
+<li><em>2023-12-03 09:44:32</em>
+APPLY FILTER <strong>sirsc_computed_metadata_after_upload</strong> ( {"meta":"...","id":53} )</li>
+<li><em>2023-12-03 09:44:31</em>
+DO ACTION <b>sirsc_attachment_images_ready</b> ( {"meta":"...","id":52} )</li>
+<li><em>2023-12-03 09:44:31</em>
+APPLY FILTER <strong>sirsc_computed_metadata_after_upload</strong> ( {"meta":"...","id":52} )</li>
+<li><em>2023-12-03 09:44:31</em>
+DO ACTION <b>sirsc_attachment_images_ready</b> ( {"meta":"...","id":51} )</li>
+<li><em>2023-12-03 09:44:31</em>
+APPLY FILTER <strong>sirsc_computed_metadata_after_upload</strong> ( {"meta":"...","id":51} )</li>
+<li><em>2023-12-03 09:44:31</em>
+DO ACTION <b>sirsc_attachment_images_ready</b> ( {"meta":"...","id":50} )</li>
+<li><em>2023-12-03 09:44:31</em>
+APPLY FILTER <strong>sirsc_computed_metadata_after_upload</strong> ( {"meta":"...","id":50} )</li>
+<li><em>2023-12-03 09:44:30</em>
+DO ACTION <b>sirsc_attachment_images_ready</b> ( {"meta":"...","id":49} )</li>
+<li><em>2023-12-03 09:44:30</em>
+APPLY FILTER <strong>sirsc_computed_metadata_after_upload</strong> ( {"meta":"...","id":49} )</li>
+<li><em>2023-12-03 09:44:30</em>
+DO ACTION <b>sirsc_attachment_images_ready</b> ( {"meta":"...","id":48} )</li>
+<li><em>2023-12-03 09:44:30</em>
+APPLY FILTER <strong>sirsc_computed_metadata_after_upload</strong> ( {"meta":"...","id":48} )</li>
+<li><em>2023-12-03 09:43:56</em>
+APPLY FILTER <strong>sirsc_custom_upload_rule</strong> ( {"settings":"...","id":0,"type":"","parent_id":38,"parent_type":"offer"} )</li>
+<li><em>2023-12-03 08:12:42</em>
+APPLY FILTER <strong>sirsc_custom_upload_rule</strong> ( {"settings":"...","id":33,"type":"attachment","parent_id":32,"parent_type":"offer"} )</li>
+<li><em>2023-12-03 08:12:14</em>
+APPLY FILTER <strong>sirsc_custom_upload_rule</strong> ( {"settings":"...","id":33,"type":"attachment","parent_id":32,"parent_type":"offer"} )</li>
+<li><em>2023-12-03 08:12:14</em>
+DO ACTION <b>sirsc_action_after_image_delete</b> ( 33 )</li>
+<li><em>2023-12-03 08:12:14</em>
+DO ACTION <b>sirsc_attachment_images_ready</b> ( {"meta":"...","id":33} )</li>
+<li><em>2023-12-03 08:12:14</em>
+DO ACTION <b>sirsc_image_processed</b> ( {"id":33,"size_name":"offerLandscape"} )</li>
+<li><em>2023-12-03 08:12:14</em>
+APPLY FILTER <strong>sirsc_custom_upload_rule</strong> ( {"settings":"...","id":33,"type":"attachment","parent_id":32,"parent_type":"offer"} )</li>
+<li><em>2023-12-03 08:12:11</em>
+APPLY FILTER <strong>sirsc_custom_upload_rule</strong> ( {"settings":"...","id":33,"type":"attachment","parent_id":32,"parent_type":"offer"} )</li>
+<li><em>2023-12-03 08:12:11</em>
+DO ACTION <b>sirsc_action_after_image_delete</b> ( 33 )</li>
+<li><em>2023-12-03 08:12:11</em>
+DO ACTION <b>sirsc_attachment_images_ready</b> ( {"meta":"...","id":33} )</li>
+<li><em>2023-12-03 08:12:11</em>
+DO ACTION <b>sirsc_image_processed</b> ( {"id":33,"size_name":"1536x1536"} )</li>
+<li><em>2023-12-03 08:12:11</em>
+APPLY FILTER <strong>sirsc_custom_upload_rule</strong> ( {"settings":"...","id":33,"type":"attachment","parent_id":32,"parent_type":"offer"} )</li>
+<li><em>2023-12-03 08:12:04</em>
+APPLY FILTER <strong>sirsc_custom_upload_rule</strong> ( {"settings":"...","id":33,"type":"attachment","parent_id":32,"parent_type":"offer"} )</li>
+<li><em>2023-12-03 08:12:04</em>
+DO ACTION <b>sirsc_action_after_image_delete</b> ( 33 )</li>
+<li><em>2023-12-03 08:12:04</em>
+DO ACTION <b>sirsc_attachment_images_ready</b> ( {"meta":"...","id":33} )</li>
+<li><em>2023-12-03 08:12:04</em>
+DO ACTION <b>sirsc_image_processed</b> ( {"id":33,"size_name":"offerLandscape"} )</li>
+<li><em>2023-12-03 08:12:04</em>
+APPLY FILTER <strong>sirsc_custom_upload_rule</strong> ( {"settings":"...","id":33,"type":"attachment","parent_id":32,"parent_type":"offer"} )</li>
+<li><em>2023-12-03 08:11:06</em>
+APPLY FILTER <strong>sirsc_custom_upload_rule</strong> ( {"settings":"...","id":33,"type":"attachment","parent_id":32,"parent_type":"offer"} )</li>
+<li><em>2023-12-03 08:11:03</em>
+APPLY FILTER <strong>sirsc_custom_upload_rule</strong> ( {"settings":"...","id":33,"type":"attachment","parent_id":32,"parent_type":"offer"} )</li>
+<li><em>2023-12-03 08:10:50</em>
+APPLY FILTER <strong>sirsc_custom_upload_rule</strong> ( {"settings":"...","id":39,"type":"attachment","parent_id":38,"parent_type":"offer"} )</li>
+<li><em>2023-12-03 08:10:43</em>
+DO ACTION <b>sirsc_action_after_image_delete</b> ( 39 )</li>
+<li><em>2023-12-03 08:10:43</em>
+DO ACTION <b>sirsc_attachment_images_ready</b> ( {"meta":"...","id":39} )</li>
+<li><em>2023-12-03 08:10:43</em>
+DO ACTION <b>sirsc_attachment_images_processed</b> ( {"meta":"...","id":39} )</li>
+<li><em>2023-12-03 08:10:42</em>
+APPLY FILTER <strong>sirsc_custom_upload_rule</strong> ( {"settings":"...","id":39,"type":"attachment","parent_id":38,"parent_type":"offer"} )</li>
+<li><em>2023-12-03 08:10:25</em>
+APPLY FILTER <strong>sirsc_custom_upload_rule</strong> ( {"settings":"...","id":39,"type":"attachment","parent_id":38,"parent_type":"offer"} )</li>
+<li><em>2023-12-03 08:10:25</em>
+DO ACTION <b>sirsc_action_after_image_delete</b> ( 39 )</li>
+<li><em>2023-12-03 08:10:25</em>
+DO ACTION <b>sirsc_attachment_images_ready</b> ( {"meta":"...","id":39} )</li>
+<li><em>2023-12-03 08:10:25</em>
+DO ACTION <b>sirsc_image_processed</b> ( {"id":39,"size_name":"offerLandscape"} )</li>
+<li><em>2023-12-03 08:10:25</em>
+APPLY FILTER <strong>sirsc_custom_upload_rule</strong> ( {"settings":"...","id":39,"type":"attachment","parent_id":38,"parent_type":"offer"} )</li>
+<li><em>2023-12-03 08:10:12</em>
+APPLY FILTER <strong>sirsc_custom_upload_rule</strong> ( {"settings":"...","id":39,"type":"attachment","parent_id":38,"parent_type":"offer"} )</li>
+<li><em>2023-12-03 08:10:09</em>
+APPLY FILTER <strong>sirsc_custom_upload_rule</strong> ( {"settings":"...","id":39,"type":"attachment","parent_id":38,"parent_type":"offer"} )</li>
+<li><em>2023-12-03 08:09:50</em>
+APPLY FILTER <strong>sirsc_custom_upload_rule</strong> ( {"settings":"...","id":37,"type":"attachment","parent_id":36,"parent_type":"offer"} )</li>
+<li><em>2023-12-03 08:08:30</em>
+APPLY FILTER <strong>sirsc_custom_upload_rule</strong> ( {"settings":"...","id":39,"type":"attachment","parent_id":38,"parent_type":"offer"} )</li>

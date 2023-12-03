@@ -18,36 +18,53 @@
     <section class="special-offers">
         <h1>Special Offers</h1>
         <div class="offers-container">
-            <div class="offer-box">
-                <div class="image-wrapper"> <img src="./wp-content/themes/dreamfly-theme/images/place_1.jpg" alt="">
+
+
+
+            <?php
+
+            $offerEvents = new WP_QUERY(
+                array(
+                    "post_type" => "offer"
+                )
+            );
+
+
+
+            while ($offerEvents->have_posts()) {
+                $offerEvents->the_post(); ?>
+                <div class="offer-box">
+                    <div class="image-wrapper"> <img src="<?php the_post_thumbnail_url('offerLandscape') ?>" alt="">
+
+                    </div>
+                    <h3>
+                        <?php the_title(); ?>
+                    </h3>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p style="font-size: 14px">
+                        <?php echo get_field('offer_location'); ?>
+                    </p>
+                    <div class="price-container">
+                        <p class="price">
+                            <?php echo "$" . get_field('offer_price'); ?>
+                        </p>
+                    </div>
                 </div>
-                <h3>Known monument in the black hills of south</h3>
-                <i class="fa-solid fa-location-dot"></i>
-                <p>Lake Grove, New York</p>
-                <div class="price-container">
-                    <p class="price">$120</p>
-                </div>
-            </div>
-            <div class="offer-box">
-                <div class="image-wrapper"> <img src="./wp-content/themes/dreamfly-theme/images/place_2.jpg" alt="">
-                </div>
-                <h3>Known monument in the black hills of south</h3>
-                <i class="fa-solid fa-location-dot"></i>
-                <p>Lake Grove, New York</p>
-                <div class="price-container">
-                    <p class="price">$120</p>
-                </div>
-            </div>
-            <div class="offer-box">
-                <div class="image-wrapper"> <img src="./wp-content/themes/dreamfly-theme/images/place_3.jpg" alt="">
-                </div>
-                <h3>Known monument in the black hills of south</h3>
-                <i class="fa-solid fa-location-dot"></i>
-                <p>Lake Grove, New York</p>
-                <div class="price-container">
-                    <p class="price">$120</p>
-                </div>
-            </div>
+            <?php }
+
+
+            ?>
+
+
+
+
+
+
+
+
+
+
+
         </div>
     </section>
 

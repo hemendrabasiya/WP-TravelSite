@@ -11,7 +11,7 @@ function dreamfly_post_types()
         array(
             'map_meta_cap' => true,
             'show_in_rest' => true,
-            'supports' => array('title', 'editor', 'excerpt'),
+            'supports' => array('title', 'editor', 'thumbnail'),
             'rewrite' => array('slug' => 'offers'),
             'has_archive' => true,
             'public' => true,
