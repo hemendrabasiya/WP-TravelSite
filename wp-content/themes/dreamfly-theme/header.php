@@ -38,7 +38,7 @@
 					<li>Home</li>
 					<li>Places</li>
 					<li>About Us</li>
-					<li>Contacts</li>
+					<li>Contact</li>
 				</ul>
 			</div>
 		</div>

@@ -10,12 +10,40 @@
             <button>Reveal Now</button>
         </div>
         <div class="main-bg">
-            <video playsinline autoplay muted loop>
+            <img src="./wp-content/themes/dreamfly-theme/images/place_1.jpg" alt="image">
+            <!-- <video playsinline autoplay muted loop>
                 <source src="./wp-content/themes/dreamfly-theme/images/vid_1.mp4" type="video/mp4">
-            </video>
+            </video> -->
         </div>
     </section>
     <section class="special-packages">
+        <form class="filter-form">
+            <div class="filter-form-container">
+                <div class="filters">
+                    <h3>Where</h3>
+                    <input type="text" name="filter-location" id="filter-location" placeholder="New York, NY">
+                    <i class="fa-solid fa-location-dot"></i></input>
+                </div>
+                <div class="filters">
+                    <h3>Date</h3>
+                    <input type="text" name="filter-date" id="filter-date" placeholder="21th June, 2023">
+                    <i class="fa-solid fa-calendar-days"></i></input>
+                </div>
+                <div class="filters">
+                    <h3>Guests</h3>
+                    <select name="filter-guests" id="flter-guests">
+                        <option value="01">01</option>
+                        <option value="02" selected>02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                    </select>
+
+                </div>
+                <div class="filter-button">
+                    <span>Search Plane&nbsp&nbsp<i class="fa-solid fa-paper-plane"></i></span>
+                </div>
+            </div>
+        </form>
         <h1 class="heading">Special Packages</h1>
         <div class="packages-container">
 
